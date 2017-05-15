@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { LoaderComponent } from 'app/loader/loader.component';
 
 @Component({
   selector: 'app-root',
