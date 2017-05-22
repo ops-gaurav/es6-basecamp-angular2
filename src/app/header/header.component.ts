@@ -7,9 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
+  active = "home";
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  /**
+   * change the navigation
+   */
+  changeNavbarOption = function (to: string): string {
+    this.active = to;
+    return this.active;
   }
 
 }

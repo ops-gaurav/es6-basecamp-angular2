@@ -10,6 +10,7 @@ import { LoaderComponent } from './loader/loader.component';
 import { MainComponent } from './main/main.component';
 import { LoginComponent } from './login/login.component';
 
+
 /**
  * define application routes
  */
